@@ -1,0 +1,39 @@
+jobs:
+    - job: Integrate
+      displayName: Integrate
+      pool:
+        vmImage: "ubuntu-18.04"
+      steps:
+        - script: |
+            npm install
+            curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+            sudo bash nodesource_setup.sh
+            rm nodesource_setup.sh
+            sudo apt install nodejs
+            sudo apt install build-essential
+
+            npm install
+            PUBLIC_URL=https://shaderboi.github.io/hexagon-engine-web npm run-script build
+            mkdir ../backup/
+            mv build/* ../backup/
+            git reset HEAD --hard
+          displayName: Install NodeJs and Build Project
+        - script: |
+            git pull origin gh-pages
+            git checkout gh-pages
+            mv * ../backup/
+            git checkout master
+            git branch -D gh-pages
+          displayName: Backup
+        - script: |
+            git config --global user.name "Andra Antariksa Azure Pipelines CI"
+            git config --global user.email "andra.antariksa@gmail.com"
+            
+            git remote set-url origin https://andraantariksa:$(gh-pages-token)@github.com/shaderboi/hexagon-engine-web.git
+
+            git checkout --orphan gh-pages
+            mv ../backup/* .
+            git add .
+            git commit -m "Integrate documentation with web"
+            git push origin gh-pages -f
+          displayName: Merge and deploy web
