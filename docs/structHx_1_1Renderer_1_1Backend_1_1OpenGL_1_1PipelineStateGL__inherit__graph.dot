@@ -1,0 +1,8 @@
+digraph "Hx::Renderer::Backend::OpenGL::PipelineStateGL"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{Hx::Renderer::Backend\l::OpenGL::PipelineStateGL\n|+ ShaderProgramHandle\l+ VertexArrayHandle\l+ VertexElementCount\l+ VertexElementStrideSize\l+ VertexLayout\l+ DepthEnable\l+ DepthMask\l+ DepthFunction\l+ StencilEnable\l+ StencilReadMask\land 24 more...\l|+ PipelineStateGL()\l+ ~PipelineStateGL()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Hx::Renderer::Backend\l::IPipelineState\n||+ ~IPipelineState()\l# IPipelineState()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1Renderer_1_1Backend_1_1IPipelineState.html"];
+}

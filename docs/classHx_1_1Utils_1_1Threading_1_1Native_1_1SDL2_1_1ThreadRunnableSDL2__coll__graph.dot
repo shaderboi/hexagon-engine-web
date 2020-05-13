@@ -1,0 +1,6 @@
+digraph "Hx::Utils::Threading::Native::SDL2::ThreadRunnableSDL2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Hx::Utils::Threading\l::Native::SDL2::ThreadRunnableSDL2\n||+ ThreadRunnableSDL2()\l+ ~ThreadRunnableSDL2()\l+ SetPriority()\l+ GetPriority()\l+ GetName()\l+ GetID()\l+ Start()\l+ Join()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

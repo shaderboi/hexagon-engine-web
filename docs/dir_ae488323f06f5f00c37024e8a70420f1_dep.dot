@@ -1,0 +1,18 @@
+digraph "Source/Engine/Renderer/Backend/OpenGL" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c79c6c033d027c17eaa1f2b1380a450e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Backend" fontname="Helvetica", fontsize="10", URL="dir_c79c6c033d027c17eaa1f2b1380a450e.html"]
+  subgraph clusterdir_ae488323f06f5f00c37024e8a70420f1 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ae488323f06f5f00c37024e8a70420f1.html"];
+    dir_ae488323f06f5f00c37024e8a70420f1 [shape=plaintext label="OpenGL"];
+    dir_ea166cfcdb2bc51e85d70b569ce6235b [shape=box label="glad" color="black" fillcolor="white" style="filled" URL="dir_ea166cfcdb2bc51e85d70b569ce6235b.html"];
+  }
+  }
+  dir_e063c324d67b7f31747867db3f2eb339 [shape=box label="Math" URL="dir_e063c324d67b7f31747867db3f2eb339.html"];
+  dir_656421a8a1ab849c948c06a227b79784 [shape=box label="App" fillcolor="white" style="filled" color="red" URL="dir_656421a8a1ab849c948c06a227b79784.html"];
+  dir_ae488323f06f5f00c37024e8a70420f1->dir_e063c324d67b7f31747867db3f2eb339 [headlabel="1", labeldistance=1.5 headhref="dir_000013_000008.html"];
+  dir_ae488323f06f5f00c37024e8a70420f1->dir_ea166cfcdb2bc51e85d70b569ce6235b [headlabel="3", labeldistance=1.5 headhref="dir_000013_000020.html"];
+  dir_ae488323f06f5f00c37024e8a70420f1->dir_656421a8a1ab849c948c06a227b79784 [headlabel="3", labeldistance=1.5 headhref="dir_000013_000002.html"];
+}

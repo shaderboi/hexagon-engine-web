@@ -1,0 +1,10 @@
+digraph "Hx::App::Native::SDL2::WindowSDL2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{Hx::App::Native::SDL2\l::WindowSDL2\n||+ WindowSDL2()\l+ WindowSDL2()\l+ ~WindowSDL2()\l+ Initialize()\l+ SetTitle()\l+ SetPosition()\l+ SetSize()\l+ SetWidth()\l+ SetHeight()\l+ PollEvent()\land 7 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Hx::App::Native::INative\lWindow\n||+ ~INativeWindow()\l+ Initialize()\l+ SetTitle()\l+ SetPosition()\l+ SetSize()\l+ SetWidth()\l+ SetHeight()\l+ PollEvent()\l+ GetTitle()\l+ GetPositionX()\l+ GetPositionY()\l+ GetWidth()\l+ GetHeight()\l+ GetBackendAPI()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1App_1_1Native_1_1INativeWindow.html"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +InitW\n+InitX\n+InitY\n+InitH" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{int\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

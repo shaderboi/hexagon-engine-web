@@ -1,0 +1,9 @@
+digraph "Source/Engine/Audio/Native/SDL2" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8fee6b977948cf5544a9079e655323b8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Native" fontname="Helvetica", fontsize="10", URL="dir_8fee6b977948cf5544a9079e655323b8.html"]
+  dir_47dc404823a9a08f9ec086ca55157b98 [shape=box, label="SDL2", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_47dc404823a9a08f9ec086ca55157b98.html"];
+  }
+}

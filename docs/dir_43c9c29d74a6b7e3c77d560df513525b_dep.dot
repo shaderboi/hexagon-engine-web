@@ -1,0 +1,18 @@
+digraph "Source/Engine/Utils" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5405398c23c020946029b9f4e6e04094 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Engine" fontname="Helvetica", fontsize="10", URL="dir_5405398c23c020946029b9f4e6e04094.html"]
+  subgraph clusterdir_43c9c29d74a6b7e3c77d560df513525b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_43c9c29d74a6b7e3c77d560df513525b.html"];
+    dir_43c9c29d74a6b7e3c77d560df513525b [shape=plaintext label="Utils"];
+    dir_25a0c998e44dcb6ded02c27a25398f65 [shape=box label="Container" color="black" fillcolor="white" style="filled" URL="dir_25a0c998e44dcb6ded02c27a25398f65.html"];
+    dir_d26b48ae2ffb83f8fa207eb461fbb895 [shape=box label="Memory" color="black" fillcolor="white" style="filled" URL="dir_d26b48ae2ffb83f8fa207eb461fbb895.html"];
+    dir_81d1a5eec2fc02d9639d88c30b5a0a65 [shape=box label="Threading" color="red" fillcolor="white" style="filled" URL="dir_81d1a5eec2fc02d9639d88c30b5a0a65.html"];
+    dir_f1c13cdb9683173b068149806c0e7125 [shape=box label="Time" color="red" fillcolor="white" style="filled" URL="dir_f1c13cdb9683173b068149806c0e7125.html"];
+    dir_9c0a81259221c56fe41a907f4f170d40 [shape=box label="TypeTraits" color="black" fillcolor="white" style="filled" URL="dir_9c0a81259221c56fe41a907f4f170d40.html"];
+  }
+  }
+  dir_81d1a5eec2fc02d9639d88c30b5a0a65->dir_9c0a81259221c56fe41a907f4f170d40 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000026.html"];
+}

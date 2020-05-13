@@ -1,0 +1,38 @@
+digraph "Hx::App::Event"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Hx::App::Event\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +MouseWheelEvent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Hx::App::MouseWheelEventData\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1App_1_1MouseWheelEventData.html"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +AmountX\n+AmountY" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{int\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +Direction" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{bool\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +@1" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{anonymous:+@1\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +KeyboardEvent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{Hx::App::KeyEventData\n|+ RControlKey\l+ RShiftKey\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1App_1_1KeyEventData.html"];
+  Node4 -> Node6 [color="grey25",fontsize="10",style="solid",label=" +LControlKey\n+Repeat\n+LAltKey\n+NumLockKey\n+ShiftKey\n+ControlKey\n+RAltKey\n+LShiftKey\n+CapsLockKey\n+AltKey\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 -> Node6 [color="grey25",fontsize="10",style="solid",label=" +KeyCode" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{KeyboardKey\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +Type" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{EventType\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +WindowMoveEvent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{Hx::App::WindowMoveEventData\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1App_1_1WindowMoveEventData.html"];
+  Node3 -> Node9 [color="grey25",fontsize="10",style="solid",label=" +X\n+Y" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +MouseButtonEvent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{Hx::App::MouseEventData\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1App_1_1MouseEventData.html"];
+  Node11 -> Node10 [color="grey25",fontsize="10",style="solid",label=" +Clicks" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{unsigned char\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node10 [color="grey25",fontsize="10",style="solid",label=" +X\n+Y" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 -> Node10 [color="grey25",fontsize="10",style="solid",label=" +Button" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{MouseButton\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node13 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +WindowResizeEvent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{Hx::App::WindowSizeEventData\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1App_1_1WindowSizeEventData.html"];
+  Node3 -> Node13 [color="grey25",fontsize="10",style="solid",label=" +Height\n+Width" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +MouseMoveEvent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 [label="{Hx::App::MouseMotionEventData\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1App_1_1MouseMotionEventData.html"];
+  Node11 -> Node14 [color="grey25",fontsize="10",style="solid",label=" +Buttons" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 -> Node14 [color="grey25",fontsize="10",style="solid",label=" +RelativeX\n+RelativeY\n+X\n+Y" ,arrowhead="odiamond",fontname="Helvetica"];
+}

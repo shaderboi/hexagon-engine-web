@@ -1,0 +1,30 @@
+digraph "Hx::Renderer::Backend::OpenGL::PipelineStateGL"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{Hx::Renderer::Backend\l::OpenGL::PipelineStateGL\n|+ ShaderProgramHandle\l+ DepthMask\l+ DepthFunction\l+ StencilFrontPassOp\l+ StencilBackFailOp\l+ StencilBackDepthFailOp\l+ Fill\l+ FrontFaceMode\l|+ PipelineStateGL()\l+ ~PipelineStateGL()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Hx::Renderer::Backend\l::IPipelineState\n||+ ~IPipelineState()\l# IPipelineState()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1Renderer_1_1Backend_1_1IPipelineState.html"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +StencilReadMask\n+StencilWriteMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{unsigned char\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +SlopeScaledDepthBias\n+DepthBias\n+DepthBiasClamp" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{float\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +VertexLayout" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{Hx::Renderer::Backend\l::OpenGL::PipelineStateGL\l::VertexLayoutType\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1Renderer_1_1Backend_1_1OpenGL_1_1PipelineStateGL_1_1VertexLayoutType.html"];
+  Node7 -> Node6 [color="grey25",fontsize="10",style="solid",label=" +AttrIdx\n+Normalized\n+Offset\n+Size\n+Format" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{int\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +DepthStencil" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{anonymous:+DepthStencil\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +VertexElementStrideSize\n+VertexElementCount\n+StencilFrontFailOp\n+VertexArrayHandle\n+StencilBackPassOp\n+StencilFrontFunc\n+StencilBackFunc\n+PrimType\n+StencilFrontDepthFailOp\n+Cull\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +Rasterizer" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{anonymous:+Rasterizer\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +StencilEnable\n+DepthClipEnable\n+DepthEnable\n+ScissorEnable\n+IndependentBlendEnable\n+CullingEnable" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{bool\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +Blend" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{anonymous:+Blend\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node12 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +FbBlendState" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{Hx::Renderer::Backend\l::OpenGL::PipelineStateGL\l::FramebufferBlendStateType\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1Renderer_1_1Backend_1_1OpenGL_1_1PipelineStateGL_1_1FramebufferBlendStateType.html"];
+  Node4 -> Node12 [color="grey25",fontsize="10",style="solid",label=" +WriteMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 -> Node12 [color="grey25",fontsize="10",style="solid",label=" +BlendingOp\n+SrcBlendAlpha\n+SrcBlend\n+DestBlendAlpha\n+BlendingOpAlpha\n+DestBlend" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 -> Node12 [color="grey25",fontsize="10",style="solid",label=" +BlendEnable" ,arrowhead="odiamond",fontname="Helvetica"];
+}

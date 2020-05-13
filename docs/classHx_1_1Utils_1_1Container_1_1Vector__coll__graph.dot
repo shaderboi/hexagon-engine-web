@@ -1,0 +1,6 @@
+digraph "Hx::Utils::Container::Vector&lt; T, PreAllocSize &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{Hx::Utils::Container\l::Vector\< T, PreAllocSize \>\n||+ Vector()\l+ Vector()\l+ Vector()\l+ Vector()\l+ ~Vector()\l+ operator[]()\l+ operator[]()\l+ GetItem()\l+ GetItem()\l+ GetFirstItem()\land 14 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

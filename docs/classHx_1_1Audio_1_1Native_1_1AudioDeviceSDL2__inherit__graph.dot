@@ -1,0 +1,8 @@
+digraph "Hx::Audio::Native::AudioDeviceSDL2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{Hx::Audio::Native::\lAudioDeviceSDL2\n||+ AudioDeviceSDL2()\l+ ~AudioDeviceSDL2()\l+ Create()\l+ Start()\l+ Stop()\l+ Pause()\l+ Continue()\l+ IsPaused()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Hx::Audio::IAudioDevice\n||+ ~IAudioDevice()\l+ Create()\l+ Start()\l+ Stop()\l+ Pause()\l+ Continue()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1Audio_1_1IAudioDevice.html"];
+}

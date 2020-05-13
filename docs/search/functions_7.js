@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['iaudiofx',['IAudioFx',['../structHx_1_1Audio_1_1IAudioFx.html#a83b74707ada7b8056aab487bc791e2bd',1,'Hx::Audio::IAudioFx']]],
+  ['iaudiostream',['IAudioStream',['../classHx_1_1Audio_1_1IAudioStream.html#a8cf70ef77d2d27f28342bb146c0481ee',1,'Hx::Audio::IAudioStream']]],
+  ['ibuffer',['IBuffer',['../structHx_1_1Renderer_1_1Backend_1_1IBuffer.html#a8c13dae9f061f979b2843eb0df625cc0',1,'Hx::Renderer::Backend::IBuffer']]],
+  ['iframebuffer',['IFrameBuffer',['../structHx_1_1Renderer_1_1Backend_1_1IFrameBuffer.html#a09dae11f5f26ca9b019fb3fc6968b8a1',1,'Hx::Renderer::Backend::IFrameBuffer']]],
+  ['inativeapp',['INativeApp',['../structHx_1_1App_1_1Native_1_1INativeApp.html#a279a15f3b6b9ccfc20f220696f009628',1,'Hx::App::Native::INativeApp']]],
+  ['initialize',['Initialize',['../classHx_1_1App_1_1Application.html#a800a062c9a008fbd2cef09ab6d802245',1,'Hx::App::Application::Initialize()'],['../classHx_1_1App_1_1Game.html#ac160e74a1f50e8f04f78ee4bebc4fbeb',1,'Hx::App::Game::Initialize()'],['../structHx_1_1App_1_1Native_1_1INativeApp.html#a3b877a8b9b1f874f440e34e00b05035c',1,'Hx::App::Native::INativeApp::Initialize()'],['../structHx_1_1App_1_1Native_1_1INativeWindow.html#aa5bbc5a056623464931addb2990eb45a',1,'Hx::App::Native::INativeWindow::Initialize()'],['../classHx_1_1App_1_1Native_1_1SDL2_1_1NativeAppSDL2.html#ad9a513e469901f303947b8d56cd5bb30',1,'Hx::App::Native::SDL2::NativeAppSDL2::Initialize()'],['../classHx_1_1App_1_1Native_1_1SDL2_1_1WindowSDL2.html#a8e9ba69abc195eacfe4df95dff4eb3d6',1,'Hx::App::Native::SDL2::WindowSDL2::Initialize()'],['../classHx_1_1App_1_1Window.html#adc245789c141edd75d2b528b4a9e1873',1,'Hx::App::Window::Initialize()'],['../structHx_1_1Audio_1_1IAudioFx.html#a529c2d166c80fdb2d166aa92d041d4fd',1,'Hx::Audio::IAudioFx::Initialize()'],['../classHx_1_1Renderer_1_1Sprite2D.html#a1d8d164f6cfb57afd77f92459cbff777',1,'Hx::Renderer::Sprite2D::Initialize()']]],
+  ['initrenderer',['InitRenderer',['../classHx_1_1App_1_1Game.html#a00525daf24efbbc7c2789fe50aa5a292',1,'Hx::App::Game']]],
+  ['initwindow',['InitWindow',['../classHx_1_1App_1_1Game.html#aa8cb7dcaace022a7c215be9d1b22ea00',1,'Hx::App::Game::InitWindow(int w, int h, int x=-1, int y=-1)'],['../classHx_1_1App_1_1Game.html#a6d1713b8eaafad322ecb8aa32d5c6b15',1,'Hx::App::Game::InitWindow(int w, int h, GameWindowFlags flags, int x=-1, int y=-1)']]],
+  ['insert',['Insert',['../classHx_1_1Utils_1_1Container_1_1Vector.html#a5caa29158ef92a66add3bd5f654efcdf',1,'Hx::Utils::Container::Vector']]],
+  ['intersection',['Intersection',['../structHx_1_1Math_1_1BoundingBox2.html#a6d73d19bcd0b37e226b4fe642b415677',1,'Hx::Math::BoundingBox2']]],
+  ['intersects',['Intersects',['../structHx_1_1Math_1_1BoundingBox2.html#a2c748756c863571a159a8e61a1f0ee2f',1,'Hx::Math::BoundingBox2::Intersects(const Vec2&lt; T &gt; &amp;p)'],['../structHx_1_1Math_1_1BoundingBox2.html#a3ca641638a6f4ad043c01a43573b5655',1,'Hx::Math::BoundingBox2::Intersects(const BoundingBox2&lt; T &gt; &amp;bbox)'],['../structHx_1_1Math_1_1BoundingBox3.html#ad7962044871f20603558811cc732a207',1,'Hx::Math::BoundingBox3::Intersects(const Vec3&lt; T &gt; &amp;p)'],['../structHx_1_1Math_1_1BoundingBox3.html#aaa067ec36438da236978bed708984d9e',1,'Hx::Math::BoundingBox3::Intersects(const BoundingBox3&lt; T &gt; &amp;bbox)']]],
+  ['inverse',['Inverse',['../structHx_1_1Math_1_1Mat4.html#ac5e1941b35e80f018f538c33622f1763',1,'Hx::Math::Mat4::Inverse()'],['../structHx_1_1Math_1_1Quaternion.html#ae92512d096a2bd4a6a1430d4f008aac0',1,'Hx::Math::Quaternion::Inverse()']]],
+  ['invert',['Invert',['../classHx_1_1Misc_1_1Color.html#a63e33263f11e6ec8c9a9302fdcb0f297',1,'Hx::Misc::Color']]],
+  ['ipipelinestate',['IPipelineState',['../structHx_1_1Renderer_1_1Backend_1_1IPipelineState.html#a13530b121ba216885ea2415d73f5a255',1,'Hx::Renderer::Backend::IPipelineState']]],
+  ['irendercontext',['IRenderContext',['../structHx_1_1Renderer_1_1Backend_1_1IRenderContext.html#a0bb8a237e01cf6ee8be7d40295479c6f',1,'Hx::Renderer::Backend::IRenderContext']]],
+  ['irenderdevice',['IRenderDevice',['../structHx_1_1Renderer_1_1Backend_1_1IRenderDevice.html#a1815a51e786edd3d0d9cc8e8a9319e06',1,'Hx::Renderer::Backend::IRenderDevice']]],
+  ['iresourceobject',['IResourceObject',['../structHx_1_1Renderer_1_1Backend_1_1IResourceObject.html#af3e6b494bf824647cf0b06a7ae6aa818',1,'Hx::Renderer::Backend::IResourceObject']]],
+  ['irunnable',['IRunnable',['../structHx_1_1Utils_1_1Threading_1_1IRunnable.html#afffb22018695a3ff64558f743e754541',1,'Hx::Utils::Threading::IRunnable']]],
+  ['isamplerstate',['ISamplerState',['../structHx_1_1Renderer_1_1Backend_1_1ISamplerState.html#a4b364870e3fe497d650c9d626833ae8f',1,'Hx::Renderer::Backend::ISamplerState']]],
+  ['ispaused',['IsPaused',['../classHx_1_1Audio_1_1Native_1_1AudioDeviceSDL2.html#aa9241e18c5c9d30e833b2241bab1b297',1,'Hx::Audio::Native::AudioDeviceSDL2']]],
+  ['isplaying',['IsPlaying',['../classHx_1_1Audio_1_1Music.html#a553f9fc50f2a57f9da8469aa63f29b2f',1,'Hx::Audio::Music']]],
+  ['itexture2d',['ITexture2D',['../structHx_1_1Renderer_1_1Backend_1_1ITexture2D.html#ad97d3a30ebf6a00867f1992177ac2994',1,'Hx::Renderer::Backend::ITexture2D']]]
+];

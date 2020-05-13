@@ -1,0 +1,18 @@
+digraph "Source/Engine/Audio/MixerChannel.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node17 [label="Source/Engine/Audio\l/MixerChannel.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Source/Engine/Audio\l/MixerEngine.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MixerEngine_8hpp.html"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Source/Engine/Audio\l/IAudioDevice.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$IAudioDevice_8hpp.html"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="Source/Engine/Audio\l/Native/SDL2/AudioDeviceSDL2.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AudioDeviceSDL2_8hpp.html"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="Source/Engine/Audio\l/Native/SDL2/AudioDeviceSDL2.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AudioDeviceSDL2_8cpp.html"];
+  Node18 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="Source/Engine/Audio\l/MixerEngine.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MixerEngine_8cpp.html"];
+  Node17 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="Source/Engine/Audio\l/MixerChannel.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MixerChannel_8cpp.html"];
+}

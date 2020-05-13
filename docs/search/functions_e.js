@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['quaternion',['Quaternion',['../structHx_1_1Math_1_1Quaternion.html#af4db1846bbb27a3d36252116a71da6d6',1,'Hx::Math::Quaternion::Quaternion(T w=T(0), const Vec3&lt; T &gt; &amp;v=Vec3&lt; T &gt;(0))'],['../structHx_1_1Math_1_1Quaternion.html#a945065a8f6e7697a0a1691fd01d4952a',1,'Hx::Math::Quaternion::Quaternion(T w, T x, T y, T z)'],['../structHx_1_1Math_1_1Quaternion.html#a6f35c37ccdfdfbdaf96e1f171262d436',1,'Hx::Math::Quaternion::Quaternion(const Vec4&lt; T &gt; &amp;v)'],['../structHx_1_1Math_1_1Quaternion.html#a49c54c895e88a232b09d8ef0455322e8',1,'Hx::Math::Quaternion::Quaternion(const Quaternion&lt; T &gt; &amp;other)'],['../structHx_1_1Math_1_1Quaternion.html#a3694388faa2176eaa13e6e80005b8736',1,'Hx::Math::Quaternion::Quaternion(const Quaternion&lt; OtherT &gt; &amp;other)'],['../structHx_1_1Math_1_1Quaternion.html#a376a5eabd4c26ceac4ede3fe59daa101',1,'Hx::Math::Quaternion::Quaternion(const Quaternion&lt; OtherT &gt; &amp;other)']]]
+];

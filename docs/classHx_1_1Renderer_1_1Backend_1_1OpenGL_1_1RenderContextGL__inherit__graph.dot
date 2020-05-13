@@ -1,0 +1,8 @@
+digraph "Hx::Renderer::Backend::OpenGL::RenderContextGL"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{Hx::Renderer::Backend\l::OpenGL::RenderContextGL\n||+ RenderContextGL()\l+ ~RenderContextGL()\l+ ClearFrameBuffer()\l+ SetVertexBuffer()\l+ SetIndexBuffer()\l+ SetPipelineState()\l+ SetStencilReference()\l+ SetShaderResource()\l+ SetShaderUniformBuffer()\l+ SetSamplerState()\land 9 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Hx::Renderer::Backend\l::IRenderContext\n||+ ~IRenderContext()\l+ ClearFrameBuffer()\l+ SetVertexBuffer()\l+ SetIndexBuffer()\l+ SetPipelineState()\l+ SetStencilReference()\l+ SetShaderResource()\l+ SetShaderUniformBuffer()\l+ SetSamplerState()\l+ SetViewport()\land 8 more...\l# IRenderContext()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1Renderer_1_1Backend_1_1IRenderContext.html"];
+}

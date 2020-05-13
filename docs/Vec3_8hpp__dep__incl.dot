@@ -1,0 +1,45 @@
+digraph "Source/Engine/Math/Vec3.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="Source/Engine/Math\l/Vec3.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Source/Engine/Math\l/Common.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Math_2Common_8hpp.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Source/Engine/Math\l/Math.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Math_8hpp.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Source/Engine/Audio\l/MixerChannel.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MixerChannel_8hpp.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Source/Engine/Audio\l/MixerEngine.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MixerEngine_8hpp.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Source/Engine/Audio\l/IAudioDevice.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$IAudioDevice_8hpp.html"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Source/Engine/Audio\l/Native/SDL2/AudioDeviceSDL2.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AudioDeviceSDL2_8hpp.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Source/Engine/Audio\l/Native/SDL2/AudioDeviceSDL2.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AudioDeviceSDL2_8cpp.html"];
+  Node9 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Source/Engine/Audio\l/MixerEngine.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MixerEngine_8cpp.html"];
+  Node8 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Source/Engine/Audio\l/MixerChannel.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MixerChannel_8cpp.html"];
+  Node7 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Source/Engine/Misc\l/Color.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Color_8cpp.html"];
+  Node7 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Source/Engine/Renderer\l/Backend/OpenGL/RenderContext\lGL.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$RenderContextGL_8cpp.html"];
+  Node6 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Source/Engine/Math\l/BoundingBox2.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$BoundingBox2_8hpp.html"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Source/Engine/Math\l/Mod.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Math_2Mod_8hpp.html"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Source/Hx.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Hx_8hpp.html"];
+  Node6 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="Source/Engine/Math\l/Transform.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Transform_8hpp.html"];
+  Node20 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="Source/Engine/Math\l/BoundingBox3.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$BoundingBox3_8hpp.html"];
+  Node21 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="Source/Engine/Math\l/Quaternion.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Quaternion_8hpp.html"];
+}

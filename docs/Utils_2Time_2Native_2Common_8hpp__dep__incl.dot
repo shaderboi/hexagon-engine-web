@@ -1,0 +1,16 @@
+digraph "Source/Engine/Utils/Time/Native/Common.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="Source/Engine/Utils\l/Time/Native/Common.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Source/Engine/Utils\l/Time/HighResolutionClock.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$HighResolutionClock_8hpp.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Source/Engine/App/Game.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Game_8hpp.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Source/Engine/App/Application.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Application_8hpp.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Source/Engine/App/Application.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Application_8cpp.html"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Source/Engine/App/Game.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Game_8cpp.html"];
+}

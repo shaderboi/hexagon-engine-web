@@ -1,0 +1,17 @@
+digraph "Hx::Renderer::Backend::BlendStateDesc"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Hx::Renderer::Backend\l::BlendStateDesc\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +IndependentBlendEnable" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{bool\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +FramebufferBlend" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{Hx::Renderer::Backend\l::BlendStateDesc::Framebuffer\lBlendState\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structHx_1_1Renderer_1_1Backend_1_1BlendStateDesc_1_1FramebufferBlendState.html"];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +WriteMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{unsigned char\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +BlendingOp\n+BlendingOpAlpha" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{BlendOp\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +SrcBlendAlpha\n+SrcBlend\n+DestBlendAlpha\n+DestBlend" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{BlendFunc\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +BlendEnable" ,arrowhead="odiamond",fontname="Helvetica"];
+}

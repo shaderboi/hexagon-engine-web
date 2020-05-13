@@ -1,0 +1,17 @@
+digraph "Source/Engine/Audio" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5405398c23c020946029b9f4e6e04094 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Engine" fontname="Helvetica", fontsize="10", URL="dir_5405398c23c020946029b9f4e6e04094.html"]
+  subgraph clusterdir_1fe6ea76c2edc195ab03f062e0f25ab8 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1fe6ea76c2edc195ab03f062e0f25ab8.html"];
+    dir_1fe6ea76c2edc195ab03f062e0f25ab8 [shape=plaintext label="Audio"];
+    dir_8fee6b977948cf5544a9079e655323b8 [shape=box label="Native" color="red" fillcolor="white" style="filled" URL="dir_8fee6b977948cf5544a9079e655323b8.html"];
+  }
+  }
+  dir_e063c324d67b7f31747867db3f2eb339 [shape=box label="Math" URL="dir_e063c324d67b7f31747867db3f2eb339.html"];
+  dir_43c9c29d74a6b7e3c77d560df513525b [shape=box label="Utils" fillcolor="white" style="filled" color="red" URL="dir_43c9c29d74a6b7e3c77d560df513525b.html"];
+  dir_1fe6ea76c2edc195ab03f062e0f25ab8->dir_e063c324d67b7f31747867db3f2eb339 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000008.html"];
+  dir_1fe6ea76c2edc195ab03f062e0f25ab8->dir_43c9c29d74a6b7e3c77d560df513525b [headlabel="2", labeldistance=1.5 headhref="dir_000006_000014.html"];
+}

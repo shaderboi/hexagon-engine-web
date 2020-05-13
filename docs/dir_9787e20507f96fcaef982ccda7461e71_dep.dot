@@ -1,0 +1,14 @@
+digraph "Source/Engine/Utils/Threading/Native" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_81d1a5eec2fc02d9639d88c30b5a0a65 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Threading" fontname="Helvetica", fontsize="10", URL="dir_81d1a5eec2fc02d9639d88c30b5a0a65.html"]
+  subgraph clusterdir_9787e20507f96fcaef982ccda7461e71 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9787e20507f96fcaef982ccda7461e71.html"];
+    dir_9787e20507f96fcaef982ccda7461e71 [shape=plaintext label="Native"];
+    dir_dbce9c02215920deb42bebe2f30239d2 [shape=box label="SDL2" color="black" fillcolor="white" style="filled" URL="dir_dbce9c02215920deb42bebe2f30239d2.html"];
+  }
+  }
+  dir_9787e20507f96fcaef982ccda7461e71->dir_dbce9c02215920deb42bebe2f30239d2 [headlabel="2", labeldistance=1.5 headhref="dir_000016_000024.html"];
+}
